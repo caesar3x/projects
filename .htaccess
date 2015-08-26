@@ -1,0 +1,2 @@
+AuthName "Amada Development"
+AuthUserFile "/home/amadamt/.htpasswds/public_html/development/passwd"

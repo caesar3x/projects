@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<addon>
+	<id>twigmo</id>
+	<name>Twigmo</name>
+	<priority>1</priority>
+	<position>0</position>
+	<status>active</status>
+	<dependencies></dependencies>
+	<opt_settings>
+		<section name="service">
+			<item id="connect">
+				<name></name>
+				<type>template</type>
+				<template>connect.tpl</template>
+			</item>
+		</section>
+		<section name="storefront">
+			<item id="use_mobile_frontend">
+				<name>Use mobile frontend</name>
+				<type>checkbox</type>
+				<default_value>N</default_value>
+			</item>
+			<item id="settings">
+				<name></name>
+				<type>template</type>
+				<template>settings.tpl</template>
+			</item>
+		</section>
+	</opt_settings>
+	<opt_language_variables>
+		<item lang="EN" id="service">Service</item>
+		<item lang="EN" id="storefront">Storefront</item>
+		<item lang="EN" id="access_id">Access ID</item>
+		<item lang="EN" id="request_error">Data send error</item>
+		<item lang="EN" id="request_processed">Request has been processed successfully</item>
+		<item lang="EN" id="get_from_twigmo">Get from Twigmo</item>
+		<item lang="EN" id="week">Week</item>
+		<item lang="EN" id="more_than_year">More than a year</item>
+		<item lang="EN" id="error_twg_cannot_connect_store">Can not connect to Twigmo service. Please try again later.</item>
+		<item lang="EN" id="error_twg_cannot_update_store">Can not update connection data in Twigmo service. Please try again later.</item>
+		<item lang="EN" id="text_twg_store_connected">You store was connected to Twigmo service successfully.</item>
+		<item lang="EN" id="tw_connect_your_store">Connect your store to Twigmo service.</item>
+		<item lang="EN" id="connect">Connect</item>
+		<item lang="EN" id="license_domain">License domain</item>
+		<item lang="EN" id="use_my_password">Use my CS-Cart admin password</item>
+		<item lang="EN" id="disable_https">Do not use HTTPS connection</item>
+		<item lang="EN" id="tt_addons_twigmo_settings_connect_store_name">Your store name in the Twigmo service database.</item>
+		<item lang="EN" id="tt_addons_twigmo_settings_connect_use_my_password">If enabled, your current password will be used for your Twigmo account.</item>
+		<item lang="EN" id="tt_addons_twigmo_settings_connect_disable_https">If enabled, only HTTP connection will be used between the addon and Twigmo service.</item>
+		<item lang="EN" id="tt_addons_twigmo_settings_settings_company_name">This name is shown at the top of mobile storefront if the 'Display company name' setting is enabled.</item>
+		<item lang="EN" id="tt_addons_twigmo_settings_settings_logo_link">The URL of your mobile logo, it is shown at the top of mobile storefront.</item>
+		<item lang="EN" id="tt_addons_twigmo_settings_settings_customer_index">The name of your store customer index file where the requests are sent to if the 'Production mode' setting is enabled.</item>
+		<item lang="EN" id="tt_addons_twigmo_settings_settings_enable_direct_requests">If enabled, the addon posts the most part of requests to the store directly.</item>
+		<item lang="EN" id="tw_manage_settings">Service account settings</item>
+		<item lang="EN" id="tw_manage_storefront_settings">Storefront settings</item>
+		<item lang="EN" id="tw_select_connect_description">You already have some connected stores. Please select the connection you want to update.</item>
+		<item lang="EN" id="new_connection">New connection</item>
+		<item lang="EN" id="error_twg_cannot_update_store">Fail to update store data. Please try again later</item>
+		<item lang="EN" id="wrong_api_object_data">Wrong [object] data</item>
+		<item lang="EN" id="wrong_api_data">Wrong API data</item>
+		<item lang="EN" id="wrong_shipping_info">Fail to post order: wrong shipping data</item>
+		<item lang="EN" id="wrong_payment_info">Fail to post order: wrong payment data</item>
+		<item lang="EN" id="object_was_not_found">The [object] data were not found</item>
+		<item lang="EN" id="product_of_day">Product of the day</item>
+		<item lang="EN" id="featured_products">Featured products</item>
+		<item lang="EN" id="fail_create_user">Fail to create user</item>
+		<item lang="EN" id="fail_post_order">Fail to post order</item>
+		<item lang="EN" id="twg_post_request_fail">Fail to post request</item>
+		<item lang="EN" id="error_twg_validator_required">The '[field]' field is mandatory</item>
+		<item lang="EN" id="mobile_version">Mobile version</item>
+		<item lang="EN" id="text_twigmo_updates_available"><![CDATA[A new version of Twigmo addon is available! <a href="[link]">Please update now</a>.]]></item>
+		<item lang="EN" id="http_location">HTTP location</item>
+		<item lang="EN" id="https_location">HTTPS location</item>
+		<item lang="EN" id="customer_index">Customer index file</item>
+		<item lang="EN" id="enable_direct_requests">Production mode</item>
+		<item lang="EN" id="display_company_name">Display company name</item>
+		<item lang="EN" id="currency_prefix">Currency prefix</item>
+		<item lang="EN" id="currency_postfix">Currency postfix</item>
+		<item lang="EN" id="disable_anonymous_checkout">Disable anonymous checkout</item>
+	</opt_language_variables>
+</addon>

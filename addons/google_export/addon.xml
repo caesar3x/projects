@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<addon>
+	<id>google_export</id>
+	<name>Google Export</name>
+	<priority>5000</priority>
+	<position>0</position>
+	<status>active</status>
+	<dependencies>data_feeds</dependencies>
+	<opt_settings>
+		<section name="general">
+			<item id="general_info">
+				<name>General info</name>
+				<type>info</type>
+				<handler>fn_google_export_generate_info</handler>
+			</item>
+			<item id="additional_langs">
+				<name>Install additional languages for Google categories</name>
+				<type>checkbox</type>
+				<default_value>N</default_value>
+			</item>
+		</section>
+	</opt_settings>
+	<functions>
+		<item for="install">fn_google_export_add_features</item>
+		<item for="install">fn_google_export_add_feed</item>
+		<item for="uninstall">fn_google_export_remove_features</item>
+		<item for="uninstall">fn_google_export_remove_feed</item>
+	</functions>
+	<opt_language_variables>
+		<item lang="EN" id="google_export_general_info"><![CDATA[<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>]]></item>
+		<item lang="EN" id="google_export_start_import">Start importing</item>
+	</opt_language_variables>
+</addon>
